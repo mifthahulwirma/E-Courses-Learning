@@ -1,29 +1,6 @@
 # President University E-Course
 
-Welcome to the President University E-Course project! This repository contains the code and documentation for an innovative e-course platform developed to facilitate online learning and comprehensive educational management at President University. The mission is to provide a seamless and intuitive platform that enhances the educational experience for students through efficient course management, streamlined procurement processes, and robust administrative functionalities.
-
-## Table of Contents
-
-- [Project Description](#project-description)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Database Setup](#database-setup)
-- [Folder Structure](#folder-structure)
-
-## Project Description
-
-The President University E-Course platform is designed to address the growing need for digital transformation in education. As institutions worldwide transition to online and hybrid learning models, there is a pressing need for tools that not only facilitate content delivery but also streamline administrative processes. This platform serves as a comprehensive solution for managing courses, sales, procurement, and financial transactions, thereby reducing administrative burdens and improving overall efficiency.
-
-### Objectives
-The primary objectives of the platform are to:
-- **Facilitate Online Learning**: Provide an accessible, interactive, and engaging online learning environment for students.
-- **Optimize Procurement Processes**: Streamline the procurement of raw materials necessary for course activities, ensuring timely and efficient handling of orders, receipts, and payments.
-- **Enhance Administrative Functions**: Support a wide range of administrative tasks, including tracking sales orders, managing accounts receivable and payable, and maintaining an accurate inventory of company assets.
-
-### Key Benefits
-- **User-Friendly Interface**: The platform is designed with a focus on user experience, ensuring that users can navigate and utilize its features with ease, regardless of their technical proficiency.
-- **Comprehensive Features**: From course management to financial tracking, the platform offers a wide range of features that cater to the diverse needs of educational institutions, helping them to operate more efficiently and effectively.
-- **Scalability**: The platform is built to handle increasing amounts of data and users, making it suitable for institutions of all sizes and adaptable to future growth and changes.
+This repository contains the code and documentation for an innovative e-course platform developed to facilitate online learning and comprehensive educational management at President University. The mission is to provide a seamless and intuitive platform that enhances the educational experience for students through efficient course management, streamlined procurement processes, and robust administrative functionalities.
 
 ### Why President University E-Course?
 With the increasing demand for online education, it is crucial to have a platform that not only supports content delivery but also integrates seamlessly with administrative functions. President University E-Course stands out by providing a holistic solution that addresses both educational and operational needs, ensuring a cohesive and efficient learning environment.
@@ -66,36 +43,3 @@ With the increasing demand for online education, it is crucial to have a platfor
 1. Open phpMyAdmin and create a new database named `ecourses2`.
 2. Import the database schema from the `database/ecourses2.sql` file into your newly created database.
 3. Update the `config/database.php` file with your database credentials.
-
-## Folder Structure
-
-```
-President-University-E-Course/
-├── E-Course-Admin/
-│   ├── admin/
-│   ├── build/
-│   ├── classes/
-│   ├── database/
-│   ├── dist/
-│   ├── inc/
-│   ├── libs/
-│   ├── node_modules/
-│   ├── plugins/
-│   ├── uploads/
-│   ├── .htaccess
-│   ├── 404.html
-│   ├── Project-Task.jpg
-│   ├── config.php
-│   ├── index.php
-│   ├── initialize.php
-│   ├── package-lock.json
-│   ├── package.json
-├── E-Course-Website/
-│   ├── assets/
-│   ├── database/
-│   ├── node_modules/
-│   ├── pages/
-│   ├── package-lock.json
-│   ├── package.json
-├── README.md
-```
